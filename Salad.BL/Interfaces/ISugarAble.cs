@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Salad.BL
+namespace Salad.BL.Interfaces
 {
-    public class Class1
+   public interface ISugarable
     {
+        double sugarPerUnit { get; }
     }
 }
